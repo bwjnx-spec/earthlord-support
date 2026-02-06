@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地球新主 - 技术支持</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #e8e8e8;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(145deg, #e94560, #ff6b6b);
+            border-radius: 24px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: #a0a0a0;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+        }
+
+        .card h2 {
+            color: #e94560;
+            margin-bottom: 16px;
+            font-size: 1.4rem;
+        }
+
+        .card p, .card li {
+            color: #c0c0c0;
+            margin-bottom: 12px;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .card li {
+            margin-bottom: 8px;
+        }
+
+        .contact-box {
+            background: linear-gradient(145deg, rgba(233, 69, 96, 0.1), rgba(255, 107, 107, 0.05));
+            border: 1px solid rgba(233, 69, 96, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-box a {
+            color: #ff6b6b;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item h3 {
+            color: #e8e8e8;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .faq-item p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #606060;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #e94560;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-links {
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            color: #a0a0a0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover {
+            color: #e94560;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">🌍</div>
+            <h1>地球新主</h1>
+            <p class="subtitle">Earth Lord - 末日生存探索游戏</p>
+            <div class="nav-links">
+                <a href="index.html">技术支持</a>
+                <a href="privacy.html">隐私政策</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>关于游戏</h2>
+                <p>《地球新主》是一款基于真实地理位置的末日生存探索游戏。在这个被外星人入侵后的废土世界中，您将作为幸存者在废墟中搜刮物资、探索未知区域、与其他玩家交易合作，努力在这个危险的新世界中生存下去。</p>
+            </div>
+
+            <div class="card">
+                <h2>游戏特色</h2>
+                <ul>
+                    <li><strong>真实位置探索</strong> - 基于您的真实地理位置，在现实世界中探索废墟和资源点</li>
+                    <li><strong>AI 生成物品</strong> - 每个发现的物品都有独特的名称和背景故事</li>
+                    <li><strong>危险等级系统</strong> - 不同区域有不同的危险等级，风险与收益并存</li>
+                    <li><strong>背包管理</strong> - 合理管理有限的背包空间，做出生存抉择</li>
+                    <li><strong>附近玩家</strong> - 发现周围的其他幸存者，建立联系</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>常见问题</h2>
+
+                <div class="faq-item">
+                    <h3>Q: 游戏需要网络连接吗？</h3>
+                    <p>A: 是的，游戏需要网络连接来同步数据和生成 AI 物品。但在网络不可用时，游戏会使用本地降级方案继续运行。</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Q: 为什么需要位置权限？</h3>
+                    <p>A: 游戏基于您的真实位置来发现附近的探索点和资源。我们仅在游戏运行时使用位置信息，且不会将您的精确位置分享给第三方。</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Q: 游戏消耗电量大吗？</h3>
+                    <p>A: 由于使用 GPS 定位，游戏会比普通应用消耗更多电量。建议在探索时携带充电宝。</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Q: 如何删除我的账户和数据？</h3>
+                    <p>A: 您可以在游戏设置中选择"删除账户"，我们将在 30 天内删除您的所有数据。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>联系我们</h2>
+                <p>如果您在使用过程中遇到任何问题，或有任何建议和反馈，请通过以下方式联系我们：</p>
+                <div class="contact-box">
+                    <p>📧 邮箱：<a href="mailto:bwjnx@outlook.com">bwjnx@outlook.com</a></p>
+                    <p>我们会在 1-3 个工作日内回复您的邮件</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>系统要求</h2>
+                <ul>
+                    <li>iOS 16.0 或更高版本</li>
+                    <li>需要 iPhone 或 iPad</li>
+                    <li>需要网络连接</li>
+                    <li>需要位置服务权限</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 地球新主 Earth Lord. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy.html">隐私政策</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
